@@ -1,0 +1,277 @@
+*{ 
+  margin:0;padding:0;  outline: 0;  vertical-align: baseline; 
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+.alink{
+  color:#fff;
+}
+body{
+  background-color: #fff;
+}
+.container{
+  display: flex;
+  width:100%;
+  /* background-color: #fafafa; */
+  background-image: url(../img//bg.png);
+  background-repeat: no-repeat;
+  background-position: center 110px;
+  background-size: 100%;
+}
+#components-form-demo-normal-login{
+  width:360px;
+  margin:160px auto;
+  background-color: #fff;
+  position: relative;
+}
+#components-form-demo-normal-login .login_header{
+  margin-bottom: 10px;
+  padding-left: 6px;
+}
+.petal{
+  display: inline-block;
+  width:16px;
+  height:10px;
+  background-color: #01AAED;
+  border-top-left-radius:100%;
+  border-bottom-right-radius:100%;
+  position: absolute;
+  left:18%;
+  top:20px;
+}
+
+#components-form-demo-normal-login .login_header span:nth-of-type(1){
+  font-size:25px;
+  font-weight: 700;
+}
+#components-form-demo-normal-login .login_header span:nth-of-type(2){
+  font-size:15px;
+  columns: #e3e3e3;
+}
+#components-form-demo-normal-login .login-form {
+    max-width: 360px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+  /* home的样式 */
+  #components-layout-demo-top .logo {
+    width: 170px;
+    height: 31px;
+    color:#fff;
+    font-size: 18px;
+    float: left;
+  }
+#menu a{
+    color:#fff;
+  }
+ #menu:hover{
+    border-bottom:2px solid #EC0E40 !important;
+    color:#EC0E40 !important;
+  } 
+  /* 图标 */
+  .icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  /* For demo */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 360px;
+  line-height: 360px;
+  overflow: hidden;
+}
+/* .slide div:nth-of-type(1){
+  background:url('../img/slide1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.slide div:nth-of-type(2){
+  background:url('../img/slide2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+} */
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.ant-carousel .slick-slide h3 img{
+  width:100%;
+  height:100%;
+ }
+ .san{
+   font-size:18px;
+   font-weight: 700px;
+   margin-left: 20%;
+   margin-bottom: 0;
+ }
+ .qi{
+  font-size:20px;
+  font-weight: 600px;
+  margin-left: 20%;
+ }
+ .san:before{
+  background: #ff6547;
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+.cont{
+  width:60%;
+  margin-left: 20%;
+  letter-spacing: 2px;
+}
+#homeImg{
+  width:100%;
+  margin-top:30px;
+  height:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:url('../img/bgimg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#homeImg .text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#homeImg .text span{
+  width:60px;
+  height:60px;
+  font-size: 18px;
+  margin-left: 10px;
+  color:#fff;
+  text-align: center;
+  line-height: 60px;
+  border:2px solid #fff;
+  border-radius: 50%;
+}
+.contimg{
+  width:50%;
+  /* margin-left: 20%; */
+  margin:0 auto;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+/* 闪烁效果 */
+@keyframes twinkling{
+  /*透明度由0到1*/
+  0%{
+      opacity:0; /*透明度为0*/
+  }
+  100%{
+      opacity:1; /*透明度为1*/
+  }
+}
+.infusion_icon {
+  animation: twinkling 1s infinite ease-in-out;
+}
+.patient{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #FDDA40;
+}
+/* card 样式 */
+#card{
+  width:100%;
+  height:170px;
+  display: flex;
+  /* border:1px solid red; */
+}
+.ant-card-body {
+  padding: 0 !important;
+  zoom: 1;
+}
+.cardLeft{
+  width:40%;
+  height:170px;
+  padding-top: 8px;
+  border-right:1px dashed #e3e3e3;
+}
+.cardRight{
+  width:60%;
+  height:170px;
+  padding-top: 50px;
+  /* border:1px solid red; */
+}
+.cardRight p{
+  font-size:15px;
+  margin-bottom: 8px;
+  margin-left:12px;
+}
+.cardBox{
+  width:42px;
+  height:158px;
+  margin:0px auto;
+  position: relative;
+  border:1px solid #e3e3e3;
+}
+.boxIner{
+  width:100%;
+  height:158px;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+.boxIcon{
+  display:'inline-block';
+  position:'absolute';
+  top:'15px';
+  right:'20px';
+  color:'red';
+  font-size:'20px';
+  display:'none';
+  animation: twinkling 1s infinite ease-in-out;
+}
+.warning{
+  /* border:1px solid red; */
+  display:inline-block;
+  width:68px;
+  height:30px;
+}
+.num{
+  display: inline-block;
+  width:25px;
+  height:25px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #e6f7ff;
+  color: #1890ff;
+  border-radius:50%;
+}
+/* 图表 */
+.chart{
+  width:100%;
+  text-align: center;
+  margin:0 auto;
+  height:400px;
+  /* float:left; */
+  /* border:1px solid red; */
+}
+/* 动态数据样式 */
+.static_line{
+  width:2px;
+  height:60px;
+  margin-left: 100px;
+  display: inline-block;
+  background-color:#1E9FFF;
+}
