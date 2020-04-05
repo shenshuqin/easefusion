@@ -28,7 +28,7 @@ class Headeronly extends React.Component {
           <a onClick={success}>退出登录</a>
           </Menu.Item>
           <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">
+            <a target="_blank" rel="noopener noreferrer" >
              修改密码
             </a>
           </Menu.Item>

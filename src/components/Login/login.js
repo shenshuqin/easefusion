@@ -15,6 +15,7 @@ class Login extends React.Component {
       this.state={
       }
   }
+
   //在此生命周期可以进行数据请求
 componentDidMount(){
   const _this=this;  
@@ -23,19 +24,21 @@ componentDidMount(){
         easing: 'ease-out-back',  
         delay: 600
     });
-    this.getDate();
+    // this.getDate();
 }
 //登录请求
-  getDate = (data) => {
-    console.log(data)
-    axios.post('/postdata', data)
-    .then((res)=>{
-        console.log(res.data)
-    })
-    .catch((err)=>{
-        console.log(err)
-    })
-  }
+getDate = (data) => {
+  console.log(data)
+  axios.post('/postdata', data)
+  .then((res)=>{
+    console.log("9999")
+      // console.log(this.props.history)
+      // this.props.history.push("/home")
+  })
+  .catch((err)=>{
+      console.log(err)
+  })
+}
   handleSubmit = e => {
       e.preventDefault();
       this.props.form.validateFields((err, values) => {
