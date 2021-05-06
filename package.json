@@ -13,7 +13,7 @@
     "echarts": "^4.6.0",
     "echarts-for-react": "^2.0.15-beta.1",
     "font-awesome": "^4.7.0",
-    "highcharts": "^8.0.0",
+    "highcharts": "^9.0.0",
     "history": "^4.10.1",
     "md5": "^2.2.1",
     "mockjs": "^1.1.0",
